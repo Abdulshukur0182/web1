@@ -1,2 +1,2 @@
-# web1
+# git1
 this is my first git repository
