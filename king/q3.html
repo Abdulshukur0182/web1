@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Travel Agency Website</title>
+    <link rel="stylesheet" href="q3.css">
+</head>
+<body>
+
+    <header>
+        <h1>Dream Travels</h1>
+        <p>Explore the World, Create Memories</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#destinations">Destinations</a>
+        <a href="#packages">Packages</a>
+        <a href="#itinerary">Itinerary</a>
+        <a href="#booking">Booking</a>
+    </nav>
+
+    <section id="home" class="hero">
+        <h2>Discover Beautiful Places</h2>
+        <p>Plan your next holiday with Dream Travels.</p>
+        <a href="#packages" class="button">Explore Packages</a>
+    </section>
+
+    <section id="destinations">
+        <h2>Popular Destinations</h2>
+
+        <div class="card">
+            <h3>Goa</h3>
+            <p>Enjoy beautiful beaches and sunsets.</p>
+        </div>
+
+        <div class="card">
+            <h3>Manali</h3>
+            <p>Explore mountains and beautiful valleys.</p>
+        </div>
+
+        <div class="card">
+            <h3>Kerala</h3>
+            <p>Enjoy greenery, nature, and backwaters.</p>
+        </div>
+
+        <div class="card">
+            <h3>Jaipur</h3>
+            <p>Discover forts, palaces, and culture.</p>
+        </div>
+    </section>
+
+    <section id="packages">
+        <h2>Holiday Packages</h2>
+
+        <div class="card">
+            <h3>Goa Package</h3>
+            <p>Duration: 3 Days / 2 Nights</p>
+            <p>Price: ₹5,000 per person</p>
+        </div>
+
+        <div class="card">
+            <h3>Manali Package</h3>
+            <p>Duration: 5 Days / 4 Nights</p>
+            <p>Price: ₹8,000 per person</p>
+        </div>
+
+        <div class="card">
+            <h3>Kerala Package</h3>
+            <p>Duration: 4 Days / 3 Nights</p>
+            <p>Price: ₹7,000 per person</p>
+        </div>
+    </section>
+
+    <section id="itinerary">
+        <h2>Sample Trip Itinerary</h2>
+
+        <h3>Goa - 3 Days</h3>
+        <p>Day 1: Arrival and beach visit.</p>
+        <p>Day 2: Sightseeing and local markets.</p>
+        <p>Day 3: Breakfast and return journey.</p>
+
+        <h3>Manali - 5 Days</h3>
+        <p>Day 1: Arrival and hotel check-in.</p>
+        <p>Day 2: Explore local attractions.</p>
+        <p>Day 3: Mountain sightseeing.</p>
+        <p>Day 4: Visit nearby tourist places.</p>
+        <p>Day 5: Return journey.</p>
+    </section>
+
+    <section id="booking">
+        <h2>Travel Inquiry Form</h2>
+
+        <form>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" required>
+
+            <label for="destination">Choose Destination:</label>
+            <select id="destination">
+                <option>Goa</option>
+                <option>Manali</option>
+                <option>Kerala</option>
+                <option>Jaipur</option>
+            </select>
+
+            <label for="date">Travel Date:</label>
+            <input type="date" id="date" required>
+
+            <label for="people">Number of Travelers:</label>
+            <input type="number" id="people" min="1" required>
+
+            <input type="submit" value="Send Inquiry">
+        </form>
+    </section>
+
+    <footer>
+        <h3>Contact Us</h3>
+        <p>Phone: 9876543210</p>
+        <p>Email: dreamtravels@example.com</p>
+        <p>&copy; 2026 Dream Travels</p>
+    </footer>
+
+</body>
+</html>
